@@ -222,6 +222,83 @@ button:hover {
     margin: 0.5rem;
 }
 
+/* Store */
+
+.store-box {
+    color: rgb(15, 15, 15);
+    background-color: rgba(150, 150, 150, 0.9);
+    width: fit-content;
+    margin: 4% auto;
+    padding: 0.25% 0.25% 0.25% 0.5%;
+    max-width: 515px;
+    border-left: 30px solid #800020;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.in-store-box {
+    color: rgb(15, 15, 15);
+    background-color: rgba(150, 150, 150, 0.9);
+    width: fit-content;
+    margin: 4% auto;
+    padding: 0.25% 0.25% 0.25% 0.5%;
+    max-width: 800px;
+    border-left: 30px solid #800020;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.store-img {
+    height: 240px;
+    width: 180px;
+    display: cover;
+    padding: 5px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.in-store-img {
+    height: 440px;
+    width: 360px;
+    display: cover;
+    padding: 5px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.music-store {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.music-store a {
+    color: black;
+}
+
+.music-content {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.store-music-content {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.music-content p {
+    margin: 0.25em;
+}
+
+.store-music-content p {
+    margin: 0.25em;
+}
+
 /* Size Rules */
 
 @media only screen and (max-width: 720px) {
