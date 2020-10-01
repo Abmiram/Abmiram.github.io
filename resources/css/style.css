@@ -401,10 +401,12 @@ button:hover {
     nav li {
         margin-left: 0;
     }
-}
 
-@media only screen and (max-width: 461px) {
     header {
         margin-top: 68px;
+    }
+
+    .link-box {
+        margin: 1% auto;
     }
 }
