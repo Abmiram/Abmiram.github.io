@@ -409,4 +409,8 @@ button:hover {
     .link-box {
         margin: 1% auto;
     }
+
+    .store-box {
+        text-align: center;
+    }
 }
