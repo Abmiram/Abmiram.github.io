@@ -1,4 +1,4 @@
-const password = 'PizzaPie';
+const password = 'Suzuki';
 
 let element = document.querySelector("button");
 let violinLinks = document.getElementById("violin-box");

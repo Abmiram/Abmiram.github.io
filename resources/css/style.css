@@ -391,8 +391,20 @@ button:hover {
 }
 
 @media only screen and (max-width: 399px) {
-    ul {
+    nav ul {
         padding: 0;
         list-style-type: none;
+    }
+}
+
+@media only screen and (max-width: 461px) {
+    nav li {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 461px) {
+    header {
+        margin-top: 68px;
     }
 }
