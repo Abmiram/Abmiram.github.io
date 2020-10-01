@@ -10,9 +10,9 @@ let passwordBox = document.getElementById("pass-form");
 const showLinks = () => {
     let pwdInput = document.getElementById("pword").value;
     if (pwdInput === password) {
-        compLinks.hidden = false;
+        /* compLinks.hidden = false;
         percussionLinks.hidden = false;
-        guitarLinks.hidden = false;
+        guitarLinks.hidden = false; */
         violinLinks.hidden = false;
         passwordBox.hidden = true;
     } else {
