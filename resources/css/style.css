@@ -304,7 +304,12 @@ button:hover {
     margin: 0.25em;
 }
 
-/* Dropdown */
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dropdown 
 
 .dropdown {
     position: relative;
@@ -328,7 +333,7 @@ button:hover {
     display: block;
     font-size: 1em;
 }
-
+*/
     /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
